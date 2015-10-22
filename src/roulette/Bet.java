@@ -46,4 +46,11 @@ public abstract class Bet {
      * @param wheel information needed to check if bet won or lost
      */
     public abstract boolean isMade (Wheel.SpinResult spinResult);
+
+	/**
+	 * @return
+	 */
+	public String getDetails() {
+		return myDescription;
+	}
 }
